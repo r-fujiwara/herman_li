@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "herman_li"
+require "herman_li/cli"
+
+HermanLi::CLI.start(ARGV)
